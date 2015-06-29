@@ -2,6 +2,8 @@ FROM ubuntu:trusty
 
 MAINTAINER Keichi Takahashi <keichi.t@me.com>
 
+VOLUME /var/lib/docker
+
 RUN locale-gen en_US.UTF-8
 ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US:en
